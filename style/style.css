@@ -585,6 +585,18 @@ p{
     padding: 0.3rem 0.6rem;
     font-size: .9rem;
   }
+  .team-left-content {
+    border-left: none;
+  }
+  .member1, .member2, .member3, .member4 {
+    display: none;
+  }
+  .team-left-content {
+    width: 100%;
+  }
+  .team-left-content {
+  padding: 0;
+
 }
 
 
