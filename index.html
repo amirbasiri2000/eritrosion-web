@@ -11,7 +11,7 @@
    
 </head>
 <body dir="rtl">
-    <div class="container-fluid ">
+    <div class="container-fluid p-0">
         <section class="hero p-1">
           <header role="banner">
             <nav class="navbar navbar-expand-md">
@@ -27,17 +27,16 @@
                         <p class="logo-bottom-top-line">medical genetics <span>laboratory</span></p>
                       </div>
                     </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                    </button>
                 </div>
       
                 <div >
-                 
                   <ul class="navbar-nav d-lg-flex">
                     <li class="nav-item active">
                       <a class="nav-link text-center" href="#">
-                        <div><img class="header-item-size" src="assets/header/home.png" width="40" /></div>
+                        <div class="header-item-size-content">
+                          <img class="header-item-size d-lg-block d-none" src="assets/header/home.png" width="40" />
+                          <img class="header-item-size d-lg-none d-block" src="assets/header/booking.png" width="40" />
+                        </div>
                         <div class="d-flex align-items-center ">
                             <span class="nav-item-typography active">خانه</span>
                             <div class="nav-item-dot active">
@@ -48,7 +47,7 @@
                     </li>
                     <li class="nav-item active">
                       <a class="nav-link text-center" href="#">
-                        <div><img class="header-item-size" src="assets/header/booking.png" width="40" /></div>
+                        <div class="header-item-size-content"><img class="header-item-size" src="assets/header/booking.png" width="40" /></div>
                         <div class="d-flex align-items-center ">
                             <span class="nav-item-typography">جواب دهی آنلاین</span>
                             <div class="nav-item-dot">
@@ -59,7 +58,7 @@
                     </li>
                     <li class="nav-item active">
                       <a class="nav-link text-center" href="#">
-                        <div><img class="header-item-size" src="assets/header/booking.png" width="40" /></div>
+                        <div class="header-item-size-content"><img class="header-item-size" src="assets/header/booking.png" width="40" /></div>
                         <div class="d-flex align-items-center ">
                             <span class="nav-item-typography">نوبت دهی آنلاین</span>
                             <div class="nav-item-dot">
@@ -70,7 +69,7 @@
                     </li>
                     <li class="nav-item active">
                       <a class="nav-link text-center" href="#">
-                        <div><img class="header-item-size" src="assets/header/booking.png" width="40" /></div>
+                        <div class="header-item-size-content"><img class="header-item-size" src="assets/header/booking.png" width="40" /></div>
                         <div class="d-flex align-items-center ">
                             <span class="nav-item-typography">خدمات</span>
                             <div class="nav-item-dot">
@@ -81,7 +80,7 @@
                     </li>
                     <li class="nav-item active">
                       <a class="nav-link text-center" href="#">
-                        <div><img class="header-item-size" src="assets/header/booking.png" width="40" /></div>
+                        <div class="header-item-size-content"><img class="header-item-size" src="assets/header/booking.png" width="40" /></div>
                         <div class="d-flex align-items-center ">
                             <span class="nav-item-typography">دانشنامه</span>
                             <div class="nav-item-dot">
@@ -92,7 +91,7 @@
                     </li>
                     <li class="nav-item active">
                       <a class="nav-link text-center" href="#">
-                        <div><img class="header-item-size" src="assets/header/booking.png" width="40" /></div>
+                        <div class="header-item-size-content"><img class="header-item-size" src="assets/header/booking.png" width="40" /></div>
                         <div class="d-flex align-items-center ">
                             <span class="nav-item-typography">درباره ما</span>
                             <div class="nav-item-dot">
@@ -104,13 +103,17 @@
                   </ul>
                 </div>
 
-                <div>
+                <div class="login-register-btn-content">
                     <a href="#">
                       <div class="login-register-btn">
                         <span class="login">ثبت نام</span>
                         <span class="register">ورود</span>
                       </div>
                     </a>
+                </div>
+
+                <div class="navbar-togle-button">
+                  <img src="assets/hamburger-icon.svg" alt="toggle" />
                 </div>
 
               </div>

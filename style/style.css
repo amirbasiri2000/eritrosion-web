@@ -42,7 +42,6 @@ p{
   width: 24rem;
   height: 24rem;
   margin: 0 auto;
-  background: yellow;
   border-radius:50%;
   -webkit-border-radius:50%;
   -moz-border-radius:50%;
@@ -198,7 +197,11 @@ p{
   font-weight: bold;
 }
 
-
+.navbar-togle-button{
+  width: 2rem;
+  cursor: pointer;
+  display: none;
+}
 
 
 
@@ -443,8 +446,37 @@ p{
 
 
 @media (max-width: 1000px) {
-  .navbar-nav{
+  .navbar-nav {
+    background-color: #51a8b1ed;
+    position: absolute;
+    z-index: 1000;
+    top: -4px;
+    right: -4px;
+    text-align: left;
+    width: 50vw;
+    height: 100vh;
+    padding: 0;
+    padding-top: 2rem;
     display: none;
+}
+  .nav-itme-active{
+    background: red;
+  }
+  .header-item-size-content{
+    padding-left: .6rem;
+  }
+  .nav-item-typography.active {
+    color: #fff;
+  }
+  .nav-item-typography {
+    font-size: 1rem;
+    color: #fff;
+    font-weight: bold;
+  }
+  a.nav-link.text-center {
+    display: flex;
+    justify-content: flex-start;
+    padding: 1rem 0;
   }
   .eritrosion-services-card-style:nth-child(2) {
     margin-top: 10rem;
@@ -462,7 +494,13 @@ p{
   .member4 {
     top: 26rem;
     left: 5rem;
-}
+  }
+  .login-register-btn-content{
+    display: none;
+  }
+  .navbar-togle-button{
+    display: flex;
+  }
 }
 
 
@@ -510,6 +548,9 @@ p{
 
 
 @media (max-width: 540px) {
+  .navbar-nav {
+    width: 70vw;
+  }
   .eritrosion-services-card-style:nth-child(odd) {
     margin-top: 0;
   }
@@ -521,7 +562,29 @@ p{
   }
   .eritrosion-services-card-style{
     margin-top: 2rem !important;
-}
+  }
+  .hero .hero-main .hero-right-content .hero-right-img {
+    width: 20rem;
+    height: 20rem;
+  }
+  .hero-right-img-border {
+    width: 181px;
+    height: 22.5rem;
+    position: absolute;
+    right: -19px;
+    top: -20px;
+  }
+  .hero-left-img-border {
+    width: 167px;
+    height: 22.6rem;
+    position: absolute;
+    right: 171px;
+    top: -20px;
+  }
+  .login-register-btn {
+    padding: 0.3rem 0.6rem;
+    font-size: .9rem;
+  }
 }
 
 
