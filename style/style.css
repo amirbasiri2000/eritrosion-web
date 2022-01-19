@@ -23,6 +23,10 @@ img{
 p{
   margin: 0;
 }
+.row{
+  margin: 0;
+  padding: 0;
+}
 /* Hero ===========================> */
 .hero{
   background-image : url('../assets/hero/hearo-background.png');
@@ -551,6 +555,9 @@ p{
   .navbar-nav {
     width: 70vw;
   }
+  .logo-bottom-top-line {
+    letter-spacing: -1.2px;
+  }
   .eritrosion-services-card-style:nth-child(odd) {
     margin-top: 0;
   }
@@ -590,6 +597,9 @@ p{
   }
   .member1, .member2, .member3, .member4 {
     display: none;
+  }
+  .team {
+    margin-top: 7rem;
   }
   .team-left-content {
     width: 100%;
