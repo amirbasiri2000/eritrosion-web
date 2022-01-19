@@ -39,9 +39,6 @@ p{
   margin-top: 4rem;
 }
 
-.hero .hero-main .hero-right-content{
- 
-}
 .hero .hero-main .hero-right-content .hero-right-img{
   width: 24rem;
   height: 24rem;
@@ -68,8 +65,12 @@ p{
   top: -12px;
 }
 .hero-left-content{
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
+}
+.hero-left-content-description p{
+
+  color: #80858b;
 }
 .hero-left-content-title1 h1{
   color: #51a8b1;
@@ -86,6 +87,7 @@ p{
   margin-top: 3rem;
   justify-content: flex-end;
   align-items: center;
+ 
 }
 .hero-left-more-detail-button button{
   border: none;
@@ -118,6 +120,12 @@ p{
 }
 .hero-left-more-detail-etc-dot3{
   font-size: 2rem;
+}
+.hero-left-title-divider{
+  height: 2.4px;
+  width: 100%;
+  background-color: #ececec;
+  margin: 1rem 0;
 }
 /* header ===========================> */
 .navbar-icon-top .navbar-nav .nav-link > .fa {
@@ -190,8 +198,9 @@ p{
 .login-register-btn{
   padding: .6rem 1rem;
   display: inline-block;
-  background: #51a8b1;
-  color: #fff;
+  background: rgb(81,168,177);
+background: linear-gradient(120deg, rgba(81,168,177,1) 0%, rgba(81,168,177,1) 47%, rgba(109,182,190,1) 48%, rgba(109,182,190,1) 100%);
+color: #fff;
   border-radius: 25px;
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
@@ -544,6 +553,9 @@ p{
   .team-left-content {
     width: 93%;
   }
+  .hero-left-content{
+    width: 94%;
+  }
 
 }
 
@@ -607,6 +619,6 @@ p{
   .team-left-content {
   padding: 0;
 
+  }
+
 }
-
-
